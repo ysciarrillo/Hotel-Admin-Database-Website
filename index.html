@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<?php
+session_start(); // this is basically, the start of the session. it is done here, because all other pages will require the session variables.
+?>
+<head>
+	<title>Initial page</title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet" type="text/css">
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="css/templatemo_style.css" rel="stylesheet" type="text/css">	
+</head>
+</head>
+<body>
+	<div class="templatemo-logo visible-xs-block">
+		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 black-bg logo-left-container">
+			<h1 class="logo-left">Black</h1>
+		</div>
+		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 white-bg logo-right-container">
+			<h1 class="logo-right">White Hotel</h1>
+		</div>			
+	</div>
+	<div class="templatemo-container">
+		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 black-bg left-container">
+			<h1 class="logo-left hidden-xs margin-bottom-60">Black</h1>			
+			<div class="tm-left-inner-container">
+				<ul class="nav nav-stacked templatemo-nav">
+				
+				  <li><a href="index.html" class="active"><i class="fa fa-home fa-medium"></i>Home page</a></li>
+				  <li> <a href="mastermind.php?action=view"><i class="fa fa-send-o fa-medium"></i>View all records </a></li>
+				  <li><a href="mastermind.php?action=update"><i class="fa fa-send-o fa-medium"></i>Update Records</a></li>
+				  <li><a href="mastermind.php?action=add"><i class="fa fa-send-o fa-medium"></i>Add a record</a></li>
+				  <li><a href="mastermind.php?action=delete"><i class="fa fa-send-o fa-medium"></i>Delete a record</a></li>
+				 
+				</ul>
+			</div>
+		</div> <!-- left section -->
+		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 white-bg right-container">
+			<h1 class="logo-right hidden-xs margin-bottom-60">White Hotel</h1>		
+			<div class="tm-right-inner-container">
+				<h1 class="templatemo-header">Black White Hotel Project</h1>
+				<img src="images/wooden-desk.jpg" alt="Wooden Desk" class="img-thumbnail">
+				<article>
+					<h2>About this project</h2>
+					<p>Black White Hotel is a project for the INF 335 course in Web Server Technologies. The project was completed successfully using the third approach. This is the index page. Each link from the navigation bar leads to any of the required components to view, update, add and delete a record in a hotel database. So this is basically like an administration panel. Every single web form or .php script is written by me. Only the template .css is from a website with free .css designs called www.templatemo.com. :) There are also buttons here that will also navigate to the forms.
+					</p>
+
+					<a href = "mastermind.php?action=view" class="btn btn-warning">View Recordss </a>		
+					<a href = "mastermind.php?action=update"  class="btn btn-warning">Update Records </a>	
+					<a href = "mastermind.php?action=add"  class="btn btn-warning">Add Records </a>
+					<a href = "mastermind.php?action=delete"  class="btn btn-warning"> Delete Records </a>
+					</form>
+				</article>
+				
+				<footer>
+					<p class="col-lg-6 col-md-6 col-sm-12 col-xs-12 templatemo-copyright">Copyright &copy; 2014 Adriana Izmirova </p>
+					<p class="col-lg-6 col-md-6 col-sm-12 col-xs-12 templatemo-social">
+						<a href="https://www.facebook.com/adriana.izmirova"><i class="fa fa-facebook fa-medium"></i></a>
+						<a href="https://twitter.com/Lucciannos"><i class="fa fa-twitter fa-medium"></i></a>
+						<a href="https://www.youtube.com/user/sapfir88888888"><i class="fa fa-youtube fa-medium"></i></a>
+						<a href="https://www.linkedin.com/pub/adriana-izmirova/5b/b7/7a2"><i class="fa fa-linkedin fa-medium"></i></a>
+					</p>
+				</footer>
+			</div>	
+		</div> <!-- right section -->
+	</div>	
+</body>
+</html>
